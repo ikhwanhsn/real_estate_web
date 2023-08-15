@@ -1,11 +1,10 @@
 import ButtonRealEstate from "../components/ButtonRealEstate";
 import InputContact from "../components/InputContact";
-import ServicesIcon from "../components/ServicesIcon";
 import TitleElement from "../components/TitleElements";
 
 const Contact = () => {
     return ( 
-        <div className="w-full text-center mt-24 relative pt-6" id="contacts">
+        <div className="relative w-full pt-6 mt-24 text-center" id="contacts">
         <h2 class="text-5xl md:text-9xl font-bold text-gray-200 absolute w-full right-0 top-20">IN TOUCH</h2>
         <div class="our-story mx-auto relative">
         <ButtonRealEstate className={"px-3 py-2 font-bold rounded-full text-blue-600 bg-blue-200 text-xs "}>CONTACTS</ButtonRealEstate>
@@ -14,7 +13,7 @@ const Contact = () => {
           <p class="w-4/6 mx-auto text-gray-500 leading-loose text-xs md:text-base">
           We have developed a unique space where you can work and create. We thought of everything to the smallest detail. You will be able to conduct your business, conduct meetings, meetings.
           </p>
-          <div className="grid-cols-2 md:grid sm:block md:w-1/2 sm:w-full md:mb-0 mx-auto gap-7 mt-8">
+          <div className="grid-cols-2 mx-auto mt-8 md:grid sm:block md:w-1/2 sm:w-full md:mb-0 gap-7">
             <InputContact 
             className={"px-5 py-3 w-80 shadow-md rounded-full pr-14 mb-2 md:mb-0"} 
             type={'text'} 

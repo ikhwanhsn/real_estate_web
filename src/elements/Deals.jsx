@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ButtonRealEstate from "../components/ButtonRealEstate";
 import TitleElement from "../components/TitleElements";
 import DealsCard from "../components/DealsCard";
