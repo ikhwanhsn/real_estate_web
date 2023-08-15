@@ -1,13 +1,13 @@
 import ButtonRealEstate from "../components/ButtonRealEstate";
 import Navbar from "../components/Navbar";
-import background from '../../public/img/background.png';
+import background from '../../public/img/Background.png';
 
 const Header = () => {
     return ( 
         <div className="flex flex-col items-center justify-center w-full" id="go-top">
             <img src={background} alt="background" className="absolute top-0"/>
             <Navbar/>
-            <div className="z-10 w-full -mt-2 text-center scale-50  md:scale-100 md:mt-24">
+            <div className="z-10 w-full -mt-2 text-center scale-50 md:scale-100 md:mt-24">
                 <ButtonRealEstate className={"px-3 py-2 font-bold rounded-full text-white bg-orange-500 text-xs"}>REAL ESTATE</ButtonRealEstate>
                 <h1 className="mx-auto mt-10 text-4xl text-white md:text-6xl w-7/8 md:w-3/5">Invest on Real Estate with Our Company</h1>
             </div>
