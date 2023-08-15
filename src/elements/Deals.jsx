@@ -2,67 +2,76 @@ import { useState } from "react";
 import ButtonRealEstate from "../components/ButtonRealEstate";
 import TitleElement from "../components/TitleElements";
 import DealsCard from "../components/DealsCard";
+import dataImage1 from '../../public/img/Image-deals-1.png';
+import dataImage2 from '../../public/img/Image-deals-2.png';
+import dataImage3 from '../../public/img/Image-deals-3.png';
+import dataImage4 from '../../public/img/Image-deals-4.png';
+import dataImage5 from '../../public/img/Image-deals-5.png';
+import dataImage6 from '../../public/img/Image-deals-6.png';
+import dataImage7 from '../../public/img/Image-deals-7.png';
+import dataImage8 from '../../public/img/Image-deals-8.png';
+import dataImage9 from '../../public/img/Image-deals-9.png';
 
 const Deals = () => {
     const dataImage = [
         {
-            src: '/public/img/Image-deals-1.png',
+            src: dataImage1,
             h3: 'Modern Glass House',
             price: '$ 1,625,000',
             place: '14 Patrick Brem Ct. Mahwah, NJ07430',
             room: '3 Beds  -  2 baths  -  3,450 sqft'
         },
         {
-            src: '/public/img/Image-deals-2.png',
+            src: dataImage2,
             h3: 'Modern Glass House',
             price: '$ 1,625,000',
             place: '9832 Hidden Valley Way',
             room: '2 Beds - 1 baths - 2,300 sqft'
         },
         {
-            src: '/public/img/Image-deals-3.png',
+            src: dataImage3,
             h3: 'Modern House',
             price: '$ 1,950,000',
             place: '12 Sillicon Valey, NJ34623',
             room: '5 Beds  -  2 baths  -  4,500 sqft'
         },
         {
-            src: '/public/img/Image-deals-4.png',
+            src: dataImage4,
             h3: 'House on the Lake',
             price: '$ 225,000',
             place: '14 Patrick Brem Ct. Mahwah, NJ07430',
             room: '3 Beds - 2 baths - 3,450 sqft'
         },
         {
-            src: '/public/img/Image-deals-5.png',
+            src: dataImage5,
             h3: 'Townhouse in the center',
             price: '$ 400,000',
             place: '9832 Hidden Valley Way',
             room: '2 Beds - 1 baths - 2,300 sqft'
         },
         {
-            src: '/public/img/Image-deals-6.png',
+            src: dataImage6,
             h3: 'Flat in Center City',
             price: '$ 225,000',
             place: '12 Sillicon Valey, NJ34623',
             room: '5 Beds  -  2 baths  -  4,500 sqft'
         },
         {
-            src: '/public/img/Image-deals-7.png',
+            src: dataImage7,
             h3: 'Townhouse in the center',
             price: '$ 1,950,000',
             place: '12 Sillicon Valey, NJ34623',
             room: '5 Beds  -  2 baths  -  4,500 sqft'
         },
         {
-            src: '/public/img/Image-deals-8.png',
+            src: dataImage8,
             h3: 'Flat in Center City',
             price: '$ 1,950,000',
             place: '12 Sillicon Valey, NJ34623',
             room: '5 Beds  -  2 baths  -  4,500 sqft'
         },
         {
-            src: '/public/img/Image-deals-9.png',
+            src: dataImage9,
             h3: 'Modern Glass House',
             price: '$ 1,950,000',
             place: '12 Sillicon Valey, NJ34623',
