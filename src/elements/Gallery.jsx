@@ -29,7 +29,7 @@ const Gallery = () => {
         <ButtonRealEstate className={"px-3 py-2 font-bold rounded-full text-blue-600 bg-blue-200 text-xs "}>GALLERY</ButtonRealEstate>
         <div className="">
           <TitleElement className={"mt-10 md:mt-20 text-md md:text-4xl mb-12 md:mb-24 font-bold text-gray-700"}>Interesting View Gallery</TitleElement>
-          <div className="flex grid-cols-4 gap-3 px-8 mx-auto overflow-scroll cursor-pointer lg:overflow-hidden snap-x snap-mandatory md:grid md:px-0 w-100 md:w-2/3 lg:gap-x-0">
+          <div className="flex grid-cols-4 gap-3 px-8 mx-auto overflow-scroll cursor-pointer lg:overflow-hidden snap-x snap-mandatory md:grid md:px-0 w-100 md:w-2/3 lg:gap-x-0 lg:gap-y-5">
             {allImage.map((item) => (
                 <ImageGallery src={item}/>
             ))}
