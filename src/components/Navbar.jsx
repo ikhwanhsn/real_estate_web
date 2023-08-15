@@ -31,7 +31,7 @@ const Navbar = () => {
                 <li><a href="#reviews" className="transition-all hover:text-gray-300 me-7">Reviews</a></li>
                 <li><a href="#contacts" className="transition-all hover:text-gray-300 me-7">Contacts</a></li>
             </ul>
-            <a href="#footer" className="hidden transition-all hover:text-gray-300 md:block">
+            <a href="#contacts" className="hidden transition-all hover:text-gray-300 md:block">
                 <p>Get In Touch</p>
             </a>
             <div className="static float-right -mt-6 cursor-pointer hamburger md:hidden" onClick={buttonActiveNav}>
